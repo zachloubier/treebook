@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-  <%= f.input :user_id, collection: User.order(:first_name), label_method: :full_name, selected: current_user.full_name %>
+  <%= f.input :user_id, collection: User.order(:first_name), label_method: :full_name, selected: current_user %>
 
   <%= f.input :content %>
   <div class="actions">
