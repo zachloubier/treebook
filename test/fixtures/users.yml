@@ -6,3 +6,10 @@ zach:
   profile_name: "zloubs"
   # password: "Watson123"
   # password_confirmation: "Watson123"
+
+pat:
+  first_name: "Pat"
+  last_name: "Bean"
+  email: "pat@muvdigital.com"
+  profile_name: "pbeaner"
+  
